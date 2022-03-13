@@ -20,6 +20,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "plop": "^3.0.5",
     "prettier": "^2.5.1"
   },
   "keywords": [
@@ -33,6 +34,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
